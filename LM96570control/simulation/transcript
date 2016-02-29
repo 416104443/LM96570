@@ -1,0 +1,26 @@
+#  
+# 0 compiles, 2 failed with no errors. 
+# Compile of test.v was successful.
+# Compile of LM96570.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.test
+# vsim work.test 
+# //  ModelSim ALTERA 10.0c Sep 21 2011 
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.test
+# Loading work.LM97570
+# WARNING: No extended dataflow license exists
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 2
+#           Attempting to use alternate WLF file "./wlfthgwm8t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthgwm8t
+run

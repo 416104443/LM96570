@@ -1,0 +1,9 @@
+
+State Machine - |LM96570control|LM96570:U1|state
+Name state.IN_ACK state.OUT_ACK state.DATA_IN state.DATA_OUT state.ADDR_OUT state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.ADDR_OUT 0 0 0 0 1 1 
+state.DATA_OUT 0 0 0 1 0 1 
+state.DATA_IN 0 0 1 0 0 1 
+state.OUT_ACK 0 1 0 0 0 1 
+state.IN_ACK 1 0 0 0 0 1 

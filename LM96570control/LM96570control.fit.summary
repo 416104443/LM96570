@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Feb 29 22:02:37 2016
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : LM96570control
+Top-level Entity Name : LM96570control
+Family : Cyclone III
+Device : EP3C40F484C6
+Timing Models : Final
+Total logic elements : 920 / 39,600 ( 2 % )
+    Total combinational functions : 621 / 39,600 ( 2 % )
+    Dedicated logic registers : 686 / 39,600 ( 2 % )
+Total registers : 686
+Total pins : 14 / 332 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 655,360 / 1,161,216 ( 56 % )
+Embedded Multiplier 9-bit elements : 0 / 252 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
